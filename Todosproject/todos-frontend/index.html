@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To do App</title>
+</head>
+<body onload="populatetask()">
+    <div class="main_container">
+         <h1 class="heading">TO DO APP</h1>
+
+        <div class="container">
+            <div class="leftpart">
+                <h2 class="taskheading">
+                    Task List
+                </h2>
+                
+                <p class="taskdescription">
+                    Add tasks to your list by typing to the right 
+                </p>
+                <div id="ToDo_container">
+                    <ul id="list_box">
+                     
+                    </ul>
+                </div>
+            </div>
+            <div class="rightpart">
+            <input type="text" placeholder="I need to do..." id="text_box" >
+            </div>
+        </div>
+
+    </div>
+       <script src="todos.js"></script>
+    <!-- <script src="todo.js"></script> -->
+</body>
+</html>
